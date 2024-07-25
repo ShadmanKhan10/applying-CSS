@@ -2,3 +2,12 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "BrandonGrotW01";
+  src: url("./assets/BrandonGrotW01-Medium.woff") format("woff2"),
+    url("./assets/BrandonGrotW01-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
