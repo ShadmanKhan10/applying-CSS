@@ -1,0 +1,6 @@
+.background-image {
+  width: 100vw;
+  aspect-ratio: 16/9;
+  background: cover;
+  display: block;
+}

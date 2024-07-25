@@ -1,0 +1,32 @@
+.features-containing-div {
+  /* border: 2px solid red; */
+  width: 40vw;
+  position: absolute;
+  top: 28vw;
+  left: 16vw;
+}
+.feature1 {
+  width: 10vw;
+  margin-right: 8vw;
+}
+.feature2 {
+  width: 10vw;
+}
+.feature3 {
+  width: 10vw;
+  margin-left: 9.5vw;
+  margin-right: 8vw;
+}
+.feature4 {
+  width: 10vw;
+}
+.first-two-feature-div {
+  /* border: 2px solid green; */
+  position: absolute;
+  top: 4.5vw;
+  left: 0;
+}
+.last-two-feature-div {
+  /* border: 2px solid green; */
+  text-align: left;
+}

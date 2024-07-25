@@ -1,0 +1,84 @@
+.countdown-container {
+  position: absolute;
+  top: 28vw;
+  left: 63vw;
+  height: 15vw;
+  width: 29vw;
+  /* border: 2px solid red; */
+}
+
+.event-date {
+  border-top: 0.1vw solid white;
+  border-bottom: 0.1vw solid white;
+}
+.event-text {
+  font-size: 2vw;
+  text-align: left;
+  color: white;
+  margin-left: 0.9vw;
+}
+
+.countdown-container-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.box1 {
+  height: 7vw;
+  width: 7vw;
+  margin: 0.5vw;
+  border-radius: 0.7vw;
+  /* background-color: rgb(83, 83, 215); */
+  background-image: linear-gradient(
+    transparent,
+    rgb(23, 118, 190),
+    rgb(23, 118, 190),
+    transparent
+  );
+}
+.box2 {
+  background-image: linear-gradient(
+    transparent,
+    rgb(23, 118, 190),
+    rgb(23, 118, 190),
+    transparent
+  );
+  height: 7vw;
+  width: 7vw;
+  margin: 0.5vw;
+  border-radius: 0.7vw;
+}
+.box3 {
+  background-image: linear-gradient(
+    transparent,
+    rgb(23, 118, 190),
+    rgb(23, 118, 190),
+    transparent
+  );
+  height: 7vw;
+  width: 7vw;
+  margin: 0.5vw;
+  border-radius: 0.7vw;
+}
+.box4 {
+  background-image: linear-gradient(
+    transparent,
+    rgb(23, 118, 190),
+    rgb(23, 118, 190),
+    transparent
+  );
+  height: 7vw;
+  width: 7vw;
+  margin: 0.5vw;
+  border-radius: 0.7vw;
+}
+.join-event-button {
+  background-image: linear-gradient(rgb(28, 66, 150), rgb(64, 64, 242));
+  color: white;
+  border-radius: 0.7vw;
+  border: none;
+  font-size: 1.7vw;
+  margin-left: 6.5vw;
+  margin-top: 1.6vw;
+  padding: 1vw;
+}
